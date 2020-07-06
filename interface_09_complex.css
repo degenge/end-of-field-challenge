@@ -1,0 +1,87 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#mockup {
+    width: 1209px;
+    height: 466px;
+    background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-yu-3-21/master/1.The-Field/5.End-of-Field/2.End-of-Field-Challenge/images/normal-res/complex/complex.09.png?token=ACUS3GAVJCOUXI7JP7SVVI27BQ2CO);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.container {
+    width: 1209px;
+    height: 466px;
+    background-color: #ffffff;
+    color: #313751;
+    padding: 7px;
+    font-family: Arial, "Sans Serif", sans-serif;
+}
+
+footer {
+    width: 100%;
+    margin: 0.6em;
+}
+
+.footer__top-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+
+.footer__col-text {
+    flex: 1 28%;
+}
+
+.fab {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.footer__col-text p {
+    width: 280px;
+    line-height: 25px;
+
+}
+
+.footer__col {
+    flex: 1 11%;
+    padding-left: 0px;
+}
+
+.footer__col p {
+    font-weight: bolder;
+}
+
+ul {
+    list-style: none;
+    padding-top: 25px;
+}
+
+ul li {
+    line-height: 36px;
+}
+
+.footer__bottom-row {
+    clear: both;
+    padding-top: 30px;
+    border-top: 2px solid #d5d8e5;
+    font-size: 13px;
+    font-weight: bold;
+}
