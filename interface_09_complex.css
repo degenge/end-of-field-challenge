@@ -5,22 +5,9 @@
     margin: 0;
 }
 
-
 body {
     height: 100%;
     width: 100%;
-}
-
-#mockup {
-    width: 1209px;
-    height: 466px;
-    background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-yu-3-21/master/1.The-Field/5.End-of-Field/2.End-of-Field-Challenge/images/normal-res/complex/complex.09.png?token=ACUS3GAVJCOUXI7JP7SVVI27BQ2CO);
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.8;
-    z-index: 10;
-    pointer-events: none;
 }
 
 .container {
@@ -30,6 +17,7 @@ body {
     color: #313751;
     padding: 7px;
     font-family: Arial, "Sans Serif", sans-serif;
+    margin: auto
 }
 
 footer {
@@ -48,33 +36,34 @@ footer {
     flex: 1 28%;
 }
 
-.fab {
-    border: 1px solid grey;
-    border-radius: 5px;
-    padding: 7px;
-}
-
-.footer__col-text p {
+.col-text__title {
     width: 280px;
     line-height: 25px;
-
 }
 
-.footer__col {
+.col-text__social-icons .fab {
+    border: 1px solid #e2e5ee;
+    border-radius: 5px;
+    color: #393d4c;
+    padding: 7px;
+    margin-top: 20px;
+}
+
+.footer__col-nav {
     flex: 1 11%;
     padding-left: 0px;
 }
 
-.footer__col p {
-    font-weight: bolder;
+.col-nav__title {
+    font-weight: bold;
 }
 
-ul {
+.col-nav__menu {
     list-style: none;
     padding-top: 25px;
 }
 
-ul li {
+.col-nav__item {
     line-height: 36px;
 }
 
