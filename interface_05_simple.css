@@ -1,0 +1,60 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#mockup {
+    width: 340px;
+    height: 215px;
+    background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-yu-3-21/master/1.The-Field/5.End-of-Field/2.End-of-Field-Challenge/images/normal-res/simple/interface.05.png?token=ACUS3GC726NUOYMZWVX7JIS7BQEU2);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    opacity: 0.8;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.widget {
+    width: 340px;
+    height: 215px;
+    background-color: #e9e9e9;
+    padding: 9px;
+
+}
+
+.widget__title {
+    height: 35px;
+    border-bottom: 2px solid #cccccc;
+}
+
+.widget__body {
+    padding-top: 30px;
+}
+
+.widget__body a {
+    text-decoration: none;
+    padding: 5px 5px;
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, "Sans Serif", sans-serif;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 5px;
+    -moz-box-shadow: 3px 3px 5px #888;
+    -webkit-box-shadow: 3px 3px 5px  #888;
+    box-shadow: 3px 3px 5px  #888;
+}
